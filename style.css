@@ -16,6 +16,34 @@ p{
     font-family: 'Trebuchet MS';
 }
 
+
+.boton {
+  background-color: #0cc0df;
+  color: rgb(12, 11, 11);
+  border: none;
+  padding: 10px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin-top: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  border: none;
+}
+
+.overlay {
+  background-color: #dab3d0(44, 44, 44, 0.4);
+  color: rgb(17, 15, 15);
+  height: 85%;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  margin-left: 900px;
+}
+
 .caja1 {
   text-align: center;  
   background-color: #f0f0f0;
@@ -33,60 +61,11 @@ img {
     height: 300px;
 }
 
-.formulario-email{
-  padding: 10px 20px;
-  background-color: #f0f0f0;
-  color: rgb(7, 1, 1);
-  border:#696958;
-  border-radius: 10px;
-  cursor: pointer;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
-  font-weight: bold;
-  transition: background-color 0.3s ease;
-  width: min(600px);
-  margin: auto;
-
+.subtitulo{
+    text-align: center;
+    color:#black;
+    font-family: 'Trebuchet MS';
 }
-
-.overlay {
-  background-color: #dab3d0(44, 44, 44, 0.4);
-  color: rgb(17, 15, 15);
-  height: 85%;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  padding: 20px;
-  margin-left: 900px;
-}
-
-.boton {
-  background-color: #0cc0df;
-  color: rgb(12, 11, 11);
-  border: none;
-  padding: 10px;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  margin-top: 10px;
-  border-radius: 5px;
-  cursor: pointer;
-  text-decoration: none;
-  border: none;
-}
-
-
-.campo {
-   margin-bottom: 10px;
-  }
-
-.campo label{
-  color: #ffffff;
-  font-weight: bold;
-  margin-bottom: 5px;
-  display:block;
-  }
-
 
 .productos {
   padding: 10px;
@@ -109,6 +88,30 @@ img {
       flex-wrap: wrap;
     }
 
+.formulario-email{
+  padding: 10px 20px;
+  background-color: #f0f0f0;
+  color: rgb(7, 1, 1);
+  border:#696958;
+  border-radius: 10px;
+  cursor: pointer;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+  width: min(600px);
+  margin: auto;
+}
+
+.campo {
+   margin-bottom: 10px;
+  }
+
+.campo label{
+  color: #ffffff;
+  font-weight: bold;
+  margin-bottom: 5px;
+  display:block;
+  }
 
 .instagram {
       padding: 10px;
@@ -121,9 +124,4 @@ img {
       justify-content: center;  
     }
 
-.subtitulo{
-    text-align: center;
-    color:#black;
-    font-family: 'Trebuchet MS';
-}
 
