@@ -1,17 +1,17 @@
 // Arreglo de productos (2.1.3)
 const productos = [
   {
-    nombre: "Pulsera Parejas",
+    nombre: "PULSERA PAREJAS",
     precio: 5000,
     imagen: "Images/pulsera1.PNG"
   },
   {
-    nombre: "Pulsera Ojo Protector Mostacillon",
+    nombre: "PULSERA OJO MOSTACILLON",
     precio: 4000,
     imagen: "Images/pulsera2.PNG"
   },
   {
-    nombre: "Pulsera Ojo Protector Cristal",
+    nombre: "PULSERA OJO CRISTAL",
     precio: 4000,
     imagen: "Images/pulsera3.PNG"
   }

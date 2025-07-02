@@ -126,3 +126,11 @@ img { /*caracteristicas las imagenes*/
     }
 
 
+.producto {
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 11px;
+  text-align: left;
+  margin: 1px; 
+  margin-bottom: 5px;
+  color:#444;
+}
